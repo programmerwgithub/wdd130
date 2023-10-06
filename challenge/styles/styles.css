@@ -1,0 +1,11 @@
+header, body, footer {margin: 20%; margin-top: 0; margin-bottom: 0; color: white;}
+header, footer {margin: 0%;}
+footer {text-align: center;}
+section, footer {color: black;}
+h1:hover {color: black;}
+nav {margin-top: 10%; font-size: 1.5em; text-align: center; margin-left: 27%; margin-right: 27%;}
+#list {text-emphasis: bold; display: block;}
+img {display: block; margin: 0 auto;}
+header {text-align: center;}
+body {background-color: rgba(250, 165, 219, 0.866);}
+div {margin-left: 15%; margin-right: 15%;}
