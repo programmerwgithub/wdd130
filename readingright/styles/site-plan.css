@@ -16,9 +16,9 @@ Fonts are separated by a | */
   --paragraph-font: Nunito Sans, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #Cea07e;  /* headlines on a white background */ 
+  --headline-color-on-white: #994636;  /* headlines on a white background */ 
   --headline-color-on-color: #edd9a3; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #cea07e; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #994636; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #edd9a3; /* paragraph text on a colored background */ 
   --paragraph-background-color: #036d19  ;
   --nav-link-color: #edd9a3;
