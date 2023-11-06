@@ -1,4 +1,4 @@
-footer {background-color: steelblue; display: grid; grid-template-columns: 1fr 1fr 1fr; justify-items: center;}
+footer {background-color: steelblue; color: white; display: grid; grid-template-columns: 1fr 1fr 1fr; justify-items: center;}
 #main {color: burlywood;}
 h4 {color: steelblue;}
 body {text-align: center;}
