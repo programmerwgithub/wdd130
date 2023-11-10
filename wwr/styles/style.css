@@ -41,7 +41,7 @@ footer a:hover {color: #0a2463; text-decoration: underline;}
 #Page2 article {display: grid; grid-template-columns: 1fr 1fr 1fr; background-color: #89fbf7; color: #0a2463; padding: 5px; text-align: center;}
 #Page2 article h1 {background-color: #89fbf7; grid-column: 1/2; color: #0a2463; text-align: left; margin: 5px 50px; text-decoration: underline;}
 #Page2 article p {grid-column: 1/3; text-align: left; margin: 5px 50px;}
-#Page2 article img {margin: 0; padding: 0; grid-column: 3/4; border-radius: 100px;}
+#Page2 article img {margin: 0; padding: 0; grid-column: 3/4; grid-row: 2/4; border-radius: 100px;}
 #Page2 article img:hover {opacity: .6; transform: scale(1.1);transition: transform .5s; box-shadow: 5px 5px 10px #266dd3;}
 #Page2 section {margin: 50px; background-color: #266dd3; padding: 10px; border-radius: 10px;}
 #Page2 section:hover {margin: 50px; background-color: #266dd3; padding: 5px; border-radius: 10px; border: 5px dotted #7f95d1;}
