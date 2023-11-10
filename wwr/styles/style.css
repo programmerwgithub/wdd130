@@ -47,11 +47,6 @@ footer a:hover {color: #0a2463; text-decoration: underline;}
 #Page2 section:hover {margin: 50px; background-color: #266dd3; padding: 5px; border-radius: 10px; border: 5px dotted #7f95d1;}
 #Page2 h2 {background-color: #89fbf7; text-transform: none; color: #0a2463; border-radius: 10px;}
 #Page2 h1 {background-color: #89fbf7; margin: 0 auto; text-align: center; padding-top: 15px; padding-bottom: 15px;}
-
-/* select {background-color: #89fbf7; color: #0a2463; padding: 10px; display: block; width: 40%; margin: 0 auto;}
-button {grid-column: 1/5; background-color: #89fbf7; ; color: #0a2463; padding: 10px; margin: 0 auto; text-align: center; width: 100%;}
-.dropdown-container {display: none; background-color: #89fbf7; color: #266dd3; text-emphasis: bold; padding: 2px; width: 100%;}
-option {margin: 10px;} */
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
