@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Nunito+Sans:opsz,wght@6..12,300&family=Playpen+Sans:wght@200&family=Skranji&family=Work+Sans:ital@1&display=swap');
-#content {max-width: 1600px; margin: 0 auto;}
+#content {max-width: 1600px; margin: 0;}
 #logo_link {padding-top: 5px; justify-self: center; align-self: center;}
 nav {display: flex; justify-content: space-around; font-family: "Playpen Sans", "Noto Sans", sans-serif; margin-top: 0;}
 nav a {margin: 0; text-align: center; color: #edd9ae; padding: 35px; text-decoration: none;}
