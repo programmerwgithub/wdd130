@@ -11,8 +11,6 @@ nav a:hover {text-align: center; background-color: #036d19; color: #edd9ae; padd
 #rbox, #hbox {display: grid; grid-template-columns: 2fr 1fr;}
 p {grid-column: 1/2; grid-row: 2/3; font-family: "Noto Sans", Helvetica, sans-serif; letter-spacing: 1px; line-height: 30px; font-size: larger; color: #edd9ae; margin: 10px 15px;}
 h2 {grid-column: 1/2; grid-row: 1/2; font-family: "Playpen Sans", "Noto Sans", sans-serif; color: #cea07e; margin: 0 5px;}
-button {grid-column: 1/2; grid-row: 3/4; width: 20%; padding: 5px; text-align: center; height: 50px; width: 300px; margin: 0 auto; border: 5px solid #994636; background-color: #edd9ae; letter-spacing: 2px; font-size: medium; color: #036d19; border-radius: 20px;}
-button a {text-emphasis: none; text-decoration: none;}
 #rbox img, #hbox img {grid-column: 2/3; grid-row: 2/4; width: 100%; border-radius: 10px;}
 body {background-color: #036d19;}
 header {background-color: #994636; letter-spacing: 0.1px; display: grid; grid-template-columns: 150px auto; margin-top: 0;}
