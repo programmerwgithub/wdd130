@@ -13,12 +13,40 @@ p {grid-column: 1/2; grid-row: 2/3; font-family: "Noto Sans", Helvetica, sans-se
 h2 {grid-column: 1/2; grid-row: 1/2; font-family: "Playpen Sans", "Noto Sans", sans-serif; color: #cea07e; margin: 0 5px;}
 #rbox img, #hbox img {grid-column: 2/3; grid-row: 2/4; width: 100%; border-radius: 10px;}
 body {background-color: #036d19;}
+.rpage {background-color: #994636;}
 header {background-color: #994636; letter-spacing: 0.1px; display: grid; grid-template-columns: 150px auto; margin-top: 0;}
 footer {background-color: #994636; font-size: 1.2em; font-family: "Skranji", Helvetica, sans-serif; padding: 25px 50px; margin-top: 200px; display: flex; justify-content: space-around; align-items: center;}
 footer p {color: #edd9ae;}
-footer a {color: #edd9ae; text-decoration: none; letter-spacing: 0.2px;}
-footer a:hover {color: #cea07e; text-decoration: wavy; border: 2px solid #cea07e; padding: 5px;}
+footer a {color: #edd9ae; text-decoration: none; letter-spacing: 0.2px; padding: 7px;}
+footer a:hover {color: #cea07e; text-decoration: none; border: 2px solid #cea07e; letter-spacing: 0.2px; padding: 5px;}
 .button {grid-column: 1/2; grid-row: 3/4; padding: 10px; text-align: center; width: 300px; text-decoration: none; margin: 0 auto; border: 5px solid #994636; background-color: #edd9ae; height: 20px; letter-spacing: 2px; font-size: larger; color: #036d19; border-radius: 20px;}
+.rtitle {background-color: #994636; opacity: 90%; padding: 2px 45px 2px 45px; border: 5px dotted #cea07e; font-size: 200px;}
+.htitle {background-color: #edd9ae; opacity: 90%; padding: 2px 45px 2px 45px; border: 5px dotted #036d19; font-size: 200px; color: #036d19;}
+#intro {display: grid; grid-template-columns: 2fr 1fr;}
+#intro p {grid-column: 1/2; grid-row: 1/2; text-align: left; font-size: large; letter-spacing: 2px;}
+#intro img {grid-column: 2/3; grid-row: 1/3; margin: 0 auto;}
+#first {grid-column: 1/2; grid-row: 2/5; line-height: 20px; color: #edd9ae; font-size: large;}
+#first a {color: #edd9ae; text-decoration: none; font-size: medium; color: #edd9ae;}
+.rpage a:hover {background-color: #cea07e;}
+.rpage a {text-decoration: none; color: #edd9ae}
+.rpage header nav a:hover {background-color: #036d19;}
+.rpage footer a:hover {background-color: #994636; color: #cea07e; text-decoration: wavy; border: 2px solid #cea07e; letter-spacing: 0.2px; padding: 5px;}
+.rpage h2 {color: #994636}
+#right {display: grid; grid-template-columns: 2fr 1fr 1fr;}
+#rightb {grid-column: 2/3; grid-row: 1/3; margin: 0; text-align: left;}
+#right img {grid-column: 1/2; grid-row: 1/2; margin: 130px 175px}
+.rpage h3 {text-decoration: underline; color: #cea07e;}
+main a {text-decoration: none; display: inline-block; padding: 8px 16px;}
+main a:hover {background-color: #994636; color: #edd9ae;}
+.previous1 {background-color: #edd9ae; color: #994636; margin-top: 10px; border-radius: 20%; opacity: 60%;}
+.previous1:hover {background-color: #edd9ae; color: #994636; margin-top: 10px; border-radius: 20%; opacity: 60%;}
+#next {background-color: #edd9ae; color: #994636; border-radius: 20%; margin-top: 10px;}
+#next:hover {background-color: #994636; color: #edd9ae;}
+#previous {background-color: #edd9ae; color: #994636; border-radius: 20%;}
+#previous:hover {background-color: #994636; color: #edd9ae;}
+#intro2 {display: grid; grid-template-columns: 2fr 1fr 1fr;}
+#intro2 img {margin: auto; padding-top: 15px;}
+.rpage {color: #edd9ae;}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -40,6 +68,10 @@ footer a:hover {color: #cea07e; text-decoration: wavy; border: 2px solid #cea07e
     }
     #hero-msg {
         margin-top: 0;
+    }
+    .rtitle {
+        font-size: 100px; 
+        text-align: center;
     }
     #hero-msg h4 {
         display: none;
