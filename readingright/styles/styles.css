@@ -32,6 +32,7 @@ footer a:hover {color: #cea07e; text-decoration: none; border: 2px solid #cea07e
 .rpage header nav a:hover {background-color: #036d19;}
 .rpage footer a:hover {background-color: #994636; color: #cea07e; text-decoration: wavy; border: 2px solid #cea07e; letter-spacing: 0.2px; padding: 5px;}
 .rpage h2 {color: #994636}
+.hpage h2 {color: #036d19;}
 #right {display: grid; grid-template-columns: 2fr 1fr 1fr;}
 #rightb {grid-column: 2/3; grid-row: 1/3; margin: 0; text-align: left;}
 #right img {grid-column: 1/2; grid-row: 1/2; margin: 130px 175px}
