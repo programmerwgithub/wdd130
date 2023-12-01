@@ -47,6 +47,12 @@ main a:hover {background-color: #994636; color: #edd9ae;}
 #intro2 {display: grid; grid-template-columns: 2fr 1fr 1fr;}
 #intro2 img {margin: auto; padding-top: 15px;}
 .rpage {color: #edd9ae;}
+.hpage {color: #edd9ae;}
+.hpage h3 {text-decoration: underline; color: #cea07e;}
+.hpage a:hover {background-color: #994636;}
+.hpage a {text-decoration: none; color: #edd9ae}
+.hpage header nav a:hover {background-color: #036d19;}
+.hpage footer a:hover {background-color: #994636; color: #cea07e; text-decoration: wavy; border: 2px solid #cea07e; letter-spacing: 0.2px; padding: 5px;}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -71,6 +77,10 @@ main a:hover {background-color: #994636; color: #edd9ae;}
     }
     .rtitle {
         font-size: 100px; 
+        text-align: center;
+    }
+    .htitle {
+        font-size: 100px;
         text-align: center;
     }
     #hero-msg h4 {
