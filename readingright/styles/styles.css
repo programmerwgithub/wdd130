@@ -39,8 +39,8 @@ footer a:hover {color: #cea07e; text-decoration: none; border: 2px solid #cea07e
 .rpage h3 {text-decoration: underline; color: #cea07e;}
 main a {text-decoration: none; display: inline-block; padding: 8px 16px;}
 main a:hover {background-color: #994636; color: #edd9ae;}
-.previous1 {background-color: #edd9ae; color: #994636; margin-top: 10px; border-radius: 20%; opacity: 60%;}
-.previous1:hover {background-color: #edd9ae; color: #994636; margin-top: 10px; border-radius: 20%; opacity: 60%;}
+#void {background-color: #edd9ae; color: #994636; margin-top: 10px; border-radius: 20%; opacity: 60%;}
+#void:hover {background-color: #edd9ae; color: #994636; margin-top: 10px; border-radius: 20%; opacity: 60%;}
 #next {background-color: #edd9ae; color: #994636; border-radius: 20%; margin-top: 10px;}
 #next:hover {background-color: #994636; color: #edd9ae;}
 #previous {background-color: #edd9ae; color: #994636; border-radius: 20%;}
