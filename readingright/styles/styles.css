@@ -80,6 +80,12 @@ button {margin-left: 0.5em; color: #edd9ae; background-color: #994636; border-ra
         display: block;
         padding: 15px;
     }
+    #rbox img, #hbox img {
+        opacity: 0%;
+    }
+    .home-title{
+        margin-top: 100px;
+    }
     #hero {
         margin-top: 0;
     }
