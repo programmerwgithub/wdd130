@@ -7,11 +7,11 @@ nav a:hover {text-align: center; background-color: #036d19; color: #edd9ae; padd
 #hero {display: grid; grid-template-columns: 1fr 3fr 1fr; font-family: "Playpen Sans", "Noto Sans", sans-serif; color: #cea07e;}
 #hero-img {width: 100%; grid-column: 1/4; height: 200px;}
 #hero-box {z-index: -1; width: 100%; grid-column: 1/4; grid-row: 1/2;}
-#hero-msg {grid-column: 2/3; grid-row: 1/2; margin: -30px auto; color: #edd9ae; font-size: 10px;}
-#rbox, #hbox {display: grid; grid-template-columns: 2fr 1fr;}
-p {grid-column: 1/2; grid-row: 2/3; font-family: "Noto Sans", Helvetica, sans-serif; letter-spacing: 1px; line-height: 30px; font-size: larger; color: #edd9ae; margin: 10px 15px;}
-h2 {grid-column: 1/2; grid-row: 1/2; font-family: "Playpen Sans", "Noto Sans", sans-serif; color: #cea07e; margin: 0 5px;}
-#rbox img, #hbox img {grid-column: 2/3; grid-row: 2/4; width: 100%; border-radius: 10px;}
+#hero-msg {grid-column: 2/3; grid-row: 1/2; margin: 30px auto; color: #994636; font-size: 20px;}
+.rpage #hero-msg {grid-column: 2/3; grid-row: 1/2; margin: -30px auto; color: #edd9ae; font-size: 10px;}
+.hpage #hero-msg {grid-column: 2/3; grid-row: 1/2; margin: -30px auto; font-size: 10px;}
+p {grid-column: 1/2; grid-row: 2/3; font-family: "Noto Sans", Helvetica, sans-serif; letter-spacing: 1px; line-height: 30px; font-size: larger; color: #edd9ae; margin: 20pxpx 15px;}
+h2 {grid-column: 1/2; grid-row: 1/2; font-family: "Playpen Sans", "Noto Sans", sans-serif; color: #cea07e; margin: 10px 5px;}
 body {background-color: #036d19;}
 .rpage {background-color: #994636;}
 header {background-color: #994636; letter-spacing: 0.1px; display: grid; grid-template-columns: 150px auto; margin-top: 0;}
@@ -20,8 +20,9 @@ footer p {color: #edd9ae;}
 footer a {color: #edd9ae; text-decoration: none; letter-spacing: 0.2px; padding: 7px;}
 footer a:hover {color: #cea07e; text-decoration: none; border: 2px solid #cea07e; letter-spacing: 0.2px; padding: 5px;}
 .button {grid-column: 1/2; grid-row: 3/4; padding: 10px; text-align: center; width: 300px; text-decoration: none; margin: 0 auto; border: 5px solid #994636; background-color: #edd9ae; height: 20px; letter-spacing: 2px; font-size: larger; color: #036d19; border-radius: 20px;}
-.rtitle {background-color: #994636; opacity: 90%; padding: 2px 25px 2px 25px; border: 5px dotted #cea07e; font-size: 75px; text-align: center;}
-.htitle {background-color: #edd9ae; opacity: 90%; padding: 2px 25px 2px 25px; border: 5px dotted #036d19; font-size: 75px; color: #036d19;}
+.bbutton {padding: 5px 10px 15px 10px; text-align: center; width: 150px; text-decoration: none; margin: 20px auto; background-color: #edd9ae; height: 20px; letter-spacing: 2px; font-size: larger; color: #994636;}
+.rtitle {background-color: #994636; opacity: 90%; padding: 0px 20px 0px 20px; border: 5px dotted #cea07e; font-size: 75px; text-align: center;}
+.htitle {background-color: #edd9ae; opacity: 90%; padding: 0px 20px 0px 20px; border: 5px dotted #036d19; font-size: 75px; color: #036d19;}
 #intro {display: grid; grid-template-columns: 2fr 1fr;}
 #intro p {grid-column: 1/2; grid-row: 1/2; text-align: left; font-size: large; letter-spacing: 2px;}
 #intro img {grid-column: 2/3; grid-row: 1/3; margin: 15px auto;}
@@ -98,14 +99,23 @@ button {margin-left: 0.5em; color: #edd9ae; background-color: #994636; border-ra
         font-size: x-large;
     }
     .rtitle {
-        font-size: 70%; 
+        font-size: x-large; 
         text-align: center;
         width: auto;
+        opacity: 100%;
+        margin-top: 20px;
+        background-color: #cea07e;
+        color: #994636;
+        border: 2px dotted #994636;
+
     }
     .htitle {
-        font-size: 70%;
+        font-size: x-large; 
         text-align: center;
         width: auto;
+        opacity: 100%;
+        margin-top: 20px;
+        border: 2px dotted #036d19;
     }
     #hero-msg h4 {
         display: none;
@@ -121,6 +131,9 @@ button {margin-left: 0.5em; color: #edd9ae; background-color: #994636; border-ra
     #intro img {
         grid-column: 1/3; 
         grid-row: 1/2;
+    }
+    .hpage #intro img {
+        width: 100%;
     }
     #intro p {
         grid-column: 1/3;
