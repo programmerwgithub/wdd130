@@ -5,7 +5,7 @@ nav {display: flex; justify-content: space-around; font-family: "Playpen Sans", 
 nav a {margin: 0; text-align: center; color: #edd9ae; padding: 35px; text-decoration: none;}
 nav a:hover {text-align: center; background-color: #036d19; color: #edd9ae; padding: 35px; text-decoration: none;}
 #hero {display: grid; grid-template-columns: 1fr 3fr 1fr; font-family: "Playpen Sans", "Noto Sans", sans-serif; color: #cea07e;}
-#hero-img {width: 100%; grid-column: 1/4; height: 300px; margin-top: -75px;}
+#hero-img {width: 100%; grid-column: 1/4; height: 300px; object-fit: cover;}
 #hero-box {z-index: -1; width: 100%; grid-column: 1/4; grid-row: 1/2;}
 #hero-msg {grid-column: 2/3; grid-row: 1/2; margin: 30px auto; color: #994636; font-size: 20px;}
 .rpage #hero-msg {grid-column: 2/3; grid-row: 1/2; margin: -30px auto; color: #edd9ae; font-size: 10px;}
