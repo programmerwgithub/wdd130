@@ -15,6 +15,8 @@ h2 {grid-column: 1/2; grid-row: 1/2; font-family: "Playpen Sans", "Noto Sans", s
 body {background-color: #036d19;}
 .rpage {background-color: #994636;}
 header {background-color: #994636; letter-spacing: 0.1px; display: grid; grid-template-columns: 150px auto; margin-top: 0;}
+#rsummaries h1 {color: #edd9ae; font-size: 40px; font-family: "Playpen Sans", "Noto Sans", sans-serif; margin: 15px 10px;}
+#rsummaries {background-color: #994636;}
 footer {background-color: #994636; font-size: 1.2em; font-family: "Noto Sans", Helvetica, sans-serif; padding: 25px 50px; margin-top: 200px; display: flex; justify-content: space-around; align-items: center;}
 footer p {color: #edd9ae;}
 footer a {color: #edd9ae; text-decoration: none; letter-spacing: 0.2px; padding: 7px;}
